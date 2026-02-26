@@ -19,7 +19,7 @@ public class ClienteUDP {
 				dados,
 				dados.length,
 				endereco,
-				27017
+				5000
 				);
 		
 		socket.send(pacote);
@@ -35,3 +35,4 @@ public class ClienteUDP {
 	}
 
 }
+
