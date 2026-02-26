@@ -13,7 +13,7 @@ public class ClienteUDP {
 		
 		byte[] dados = mensage.getBytes();
 		
-		InetAddress endereco = InetAddress.getByName("10.42.27.252");
+		InetAddress endereco = InetAddress.getByName("localhost");
 		
 		DatagramPacket pacote = new DatagramPacket(
 				dados,
@@ -35,4 +35,5 @@ public class ClienteUDP {
 	}
 
 }
+
 
