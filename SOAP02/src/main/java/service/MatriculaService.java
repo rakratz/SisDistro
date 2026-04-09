@@ -11,9 +11,4 @@ public interface MatriculaService {
     @WebMethod
     String cadastrarAluno(String nome, int matricula, double nota1, double nota2);
 
-    @WebMethod
-    Aluno buscarAluno(int matricula);
-
-    @WebMethod
-    List<Aluno> listarAlunos();
 }
