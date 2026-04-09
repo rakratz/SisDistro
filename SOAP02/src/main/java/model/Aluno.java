@@ -12,21 +12,6 @@ public class Aluno {
 
     public Aluno() {}
 
-    public Aluno(String nome, int matricula, double nota1, double nota2) {
-        this.nome = nome;
-        this.matricula = matricula;
-        this.nota1 = nota1;
-        this.nota2 = nota2;
-    }
-
-    public double getMedia() {
-        return (nota1 + nota2) / 2;
-    }
-
-    public String getSituacao() {
-        return getMedia() >= 6 ? "APROVADO" : "REPROVADO";
-    }
-
     // getters e setters
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
