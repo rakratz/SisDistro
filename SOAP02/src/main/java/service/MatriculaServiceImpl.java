@@ -19,19 +19,5 @@ public class MatriculaServiceImpl implements MatriculaService {
         return "Aluno cadastrado com sucesso!";
     }
 
-    @Override
-    public Aluno buscarAluno(int matricula) {
 
-        for (Aluno a : alunos) {
-            if (a.getMatricula() == matricula) {
-                return a;
-            }
-        }
-        return null;
-    }
-
-    @Override
-    public List<Aluno> listarAlunos() {
-        return alunos;
-    }
 }
